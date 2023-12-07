@@ -1,3 +1,8 @@
-echo 'tango charlie alpha'
+echo "what's your name?"
 
-we have tried this
+name=$1
+age=$2
+car=$3
+
+echo "You are signed in as $(whoami)"
+echo "You drive a $car and your are $age years old"

@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 name=$1
@@ -17,6 +18,3 @@ echo "today is $date"
 sleep 2
 
 echo "and you drive a $car"
-
-
-

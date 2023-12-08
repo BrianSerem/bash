@@ -1,8 +1,20 @@
-echo "what's your name?"
+
+#!/bin/bash
 
 name=$1
 age=$2
 car=$3
 
-echo "You are signed in as $(whoami)"
-echo "You drive a $car and your are $age years old"
+user=$(whoami)
+pwd=$(pwd)
+date=$(date)
+
+
+
+echo "hello and welcome $user"
+sleep 2
+
+echo "today is $date"
+sleep 2
+
+echo "and you drive a $car"
